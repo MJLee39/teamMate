@@ -12,7 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     compileOnly 'org.projectlombok:lombok'
@@ -36,7 +35,7 @@ tasks.jar {
 tasks.bootJar {
     enabled = true
     manifest {
-        attributes 'Main-Class': 'org.example.Main' // 메인 클래스 경로를 실제 패키지에 맞게 수정
+        attributes 'Start-Class': 'org.example.Main' // 메인 클래스 경로를 실제 패키지에 맞게 수정
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
