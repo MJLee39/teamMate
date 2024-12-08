@@ -46,10 +46,7 @@ build/
 .DS_Store
 
 ### DEV ###
-application-dev*.yml
-application-prod*.yml
-application-local*.yml
-application-oauth.yml
+application.yml
 src/test/resources/application.yml
 
 # q type이 들어있는 generated는 무시
