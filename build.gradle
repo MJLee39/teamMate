@@ -27,3 +27,14 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+tasks.jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
