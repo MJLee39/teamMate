@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: org.example.Application
+Main-Class: org.example.Main
 Start-Class: org.example.Main
 Spring-Boot-Version: 3.3.0
 Spring-Boot-Classes: BOOT-INF/classes/
